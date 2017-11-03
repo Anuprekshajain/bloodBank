@@ -1,0 +1,44 @@
+ body{
+        background: url('../img/b7.jpg') no-repeat center fixed;
+  background-size: cover;
+  font:italic bold 20px/30px Georgia, serif;
+  text-align:center;
+    }
+a{
+    font:italic bold 30px/50px Georgia, serif;
+  text-align:center;
+  background-color: red;
+  padding:5px;
+  color:white;
+}
+h1{
+    color:white;
+    font:italic bold 40px/80px Georgia, serif;
+    text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:40%;
+    max-width: 100%;
+    margin: 0 auto;
+    transition: 0.3s;
+    align-self: center;
+    text-align: center;
+    border-radius: 5px;
+background-color: #fff;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 450px) {
+.card{width:95%;}
+ p{font-size: 15px;}
+}
+.blood{
+    background-color:brown;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}

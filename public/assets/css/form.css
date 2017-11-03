@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color:brown;
+    font:italic bold 40px/70px Georgia, serif;
+}
+h2{
+    text-align: center;
+    color:black;
+    font:italic bold 30px/40px Georgia, serif;
+}
+a{
+   background-color:white;
+}
+label{
+    font-family: Georgia;
+    font-size: 15px;
+}
+button{
+    color: red;
+}
+body{
+    padding-left: 5px;
+    background: url('../img/b6.png') no-repeat center fixed;
+  background-size: cover;
+    word-spacing: 2px;
+    text-align: center;
+}
+a{
+    color:black;
+    font-size: 20px;
+}
