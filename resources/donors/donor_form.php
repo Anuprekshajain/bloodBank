@@ -1,8 +1,9 @@
 <?php
+session_start();
 require ('../config/connect.php');
-$first_name = $mysqli->escape_string($_POST['fname']);
-$last_name = $mysqli->escape_string($_POST['lname']);
-$email = $mysqli->escape_string($_POST['email']);
+$first_name = $_SESSION['first_name'];
+$last_name = $_SESSION['last_name'];
+$email =$_SESSION['email'];
 $city = $mysqli->escape_string($_POST['city']);
 $blood_group = $mysqli->escape_string($_POST['bgroup']);
 $contact=$_POST['contact'];

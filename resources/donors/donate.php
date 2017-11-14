@@ -27,14 +27,14 @@ else {
 <body>
     <h1>Please fill the form</h1>
     <div id="form">
-    <form name="dform" method="post" action="donor_form.php">
+    <form name="dform" method="post" action="donor_form.php" >
         <label><b>First Name</b></label>
-        <input type="text" placeholder="Enter Name" name="fname" required><br>
+        <input type="text" placeholder="Enter Name" name="fname" value="<?php echo $_SESSION['first_name']; ?>" required><br>
 <label><b>Last Name</b></label>
-      <input type="text" placeholder="Enter Name" name="lname" required><br>
+      <input type="text" placeholder="Enter Name" name="lname" value="<?php echo $_SESSION['last_name']; ?>" required><br>
 
       <label><b>Email   </b></label>
-      <input type="text" placeholder="Enter Email" name="email" required><br>
+      <input type="text" placeholder="Enter Email" name="email" value="<?php echo $_SESSION['email']; ?>" required><br>
 <label><b>Contact number</b></label>
 <input type="text" placeholder="Enter number" name="contact" required><br>
 <label><b>Address</b></label>
