@@ -46,7 +46,7 @@ h1{
 <h1>Congratulations you have successfully registerd as a donor</h1>
 <p>You can help someone in protecting their life</p>
 <img src="../../public/assets/img/b4.jpg">
-<a href="../../public/main.html">Back to home</a>
+<a href="../../public/main.php">Back to home</a>
 
 </body>
 </html>

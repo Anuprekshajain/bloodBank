@@ -17,12 +17,18 @@ session_destroy();
 </head>
 
 <body>
+  <style>
+  body{
+        background: url('../../public/assets/img/b12.jpg') no-repeat center fixed;
+  background-size: cover;
+    }
+  </style>
     <div class="form">
           <h1>Thanks for stopping by</h1>
 
           <p><?= 'You have been logged out!'; ?></p>
 
-          <a href="../../public/main.html"><button class="button button-block"/>Home</button></a>
+          <a href="../../public/main.php"><button class="button button-block"/>Home</button></a>
 
     </div>
 </body>

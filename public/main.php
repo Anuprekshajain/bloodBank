@@ -23,12 +23,29 @@
       <li><a href="#tips">Blood donation tips</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="../resources/donors/myprofile.php" ><span class="glyphicon glyphicon-user"></span> Edit profile</a>
+
+
+      <?php
+session_start();
+require "../resources/config/connect.php";
+// Check if user is logged in using the session variable
+if(isset($_SESSION['logged_in'])){
+  if($_SESSION['logged_in']==1){?>
+       <li><a href="../resources/donors/myprofile.php" ><span class="glyphicon glyphicon-user"></span> Edit profile</a>
       </li>
+      <li><a href="../resources/user_registration/logout.php"><span class="glyphicon glyphicon-log-out">Logout</a></li></span><?php
+    }
+  }
+error_reporting(0);
+  if($_SESSION['logged_in']==false){
+    ?>
       <li><a href="../resources/user_registration/index.php" ><span class="glyphicon glyphicon-user"></span> Sign Up</a>
       </li>
       <li><a href="../resources/user_registration/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      <li><a href="../resources/user_registration/logout.php"><span class="glyphicon glyphicon-log-out">Logout</a></li>
+   <?php
+
+}
+    ?>
     </ul>
   </div>
 </nav>

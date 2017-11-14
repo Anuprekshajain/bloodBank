@@ -25,7 +25,7 @@ session_start();
     ?>
     </p> <ul class="tab-group">
         <li class="tab"><a href="index.php">Login</a></li>
-        <li class="tab active"><a href="../../public/main.html">home</a></li>
+        <li class="tab active"><a href="../../public/main.php">home</a></li>
       </ul>
 </div>
 </body>

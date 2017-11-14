@@ -35,6 +35,6 @@ echo "<script type= 'text/javascript'>alert('Error: " . "<br>" . $connection->er
     <h1><u>Your profile is updated successfully</u></h1>
     <p>Thanks for being an active user</p>
     <img src="../../public/assets/img/b21.jpg"><br>
-    <a href="../../public/main.html">Back to home</a>
+    <a href="../../public/main.php">Back to home</a>
 </body>
 </html>

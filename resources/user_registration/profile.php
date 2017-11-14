@@ -39,7 +39,7 @@ else {
           <h1>Welcome</h1>
           <h2><?php echo $first_name.' '.$last_name; ?></h2>
           <p><?= $email ?></p>
-          <a style="margin: 0 auto;" href="../../public/main.html">Back to home</a>
+          <a style="margin: 0 auto;" href="../../public/main.php">Back to home</a>
     </div>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

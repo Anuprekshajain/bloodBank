@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
           </div>
 
           <p class="forgot"><a href="forgot.php">Forgot Password?</a><br>
-           <a href="../public/main.html">Back to home</a></p>
+           <a href="../public/main.php">Back to home</a></p>
           <button class="button button-block" name="login" />Log In</button>
           </form>
 
